@@ -1,0 +1,32 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "031-45-154"
+	},
+
+	"description": "Memes",
+
+	"platforms": [
+		{
+			"platform": "HttpWebHooks",
+			"webhook_port": "51828",
+			"cache_directory": "./.node-persist/storage",
+			"switches": [
+				{
+				"id": "s1",
+				"name": "Front Door",
+				"on_url": "http://192.168.0.10:51828/?accessoryId=s1",
+				"off_url": "http://192.168.0.10:51828/?accessoryId=s1"
+				},
+				{
+				"id": "l1",
+				"name": "Lights",
+				"on_url": "http://192.168.0.10:51828/?accessoryId=l1",
+				"off_url": "http://192.168.0.10:51828/?accessoryId=l1"
+				}
+			]
+		}
+	]
+}
