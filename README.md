@@ -1,6 +1,8 @@
 # minecraft-homebridge
 Hooking [ScriptCraft](https://github.com/walterhiggins/ScriptCraft) to [homebridge](https://github.com/nfarina/homebridge), using [homebridge-http-webhooks](https://github.com/benzman81/homebridge-http-webhooks).
 
+![minecraft-homebridge](https://my.mixtape.moe/urdfzx.png)
+
 # Installation & Use
 1. Install [homebridge](https://github.com/nfarina/homebridge) and [homebridge-http-webhooks](https://github.com/benzman81/homebridge-http-webhooks) and make sure it works all fine and dandy. This isn't terribly difficult with `npm` on Linux.
 2. Install [ScriptCraft](https://github.com/walterhiggins/ScriptCraft) *not* using Canary.
